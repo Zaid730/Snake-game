@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.canvas_div {
+    width: 100wh;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    display: grid;
+    place-items: center;
+    
+}
+
+#gameOverMenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+}
